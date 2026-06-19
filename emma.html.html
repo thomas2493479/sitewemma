@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+<title> emma et thomas </title> 
+<meta charset="utf-8"> 
+<link rel="stylesheet"href="style.css">    
+</head> 
+<head>
+<body>
+ <p><center><font size="+2">aujourd'hui c'est un jour spécial...</p>
+<p><center>pourquoi ?</FONT></p>
+<h1><center><strong><FONT size="+3"><font color="red">car c'est les deux ans de notre couple !</strong></FONT></h1>
+ 
+
+		<h2><center><font size="+2"Et oui déja 2 ans qu'on se partage tout, qu'on s'est donné le statue de couple sans jamais le quitté. Le temps passe trop vite, surtout quand je suis avec toi </font></h2>
+		<p> </p>
+		<center>
+		<img src=https://media.istockphoto.com/id/636379014/fr/photo/mains-formant-une-forme-de-c%C5%93ur-avec-sa-silhouette-au-coucher-du-soleil.jpg?s=612x612&w=0&k=20&c=x9tv_eEIyf5eBbNKJ4L8Nte2LE-UUh6YXVtr29ubwRk= alt="mains en coeur" height="500"/>
+		</center>
+		<hr>
+		<p><center><FONT size="5pt">Pour retracer ces deux belles années j'ai décidé de sortir nos plus belle photos !Mais avant ça je dois m'assurer de quelque chose...<height=300></p>
+		<p><center><FONT size="6pt"> es tu bien Emma ?<height=300></p>
+		<p><center><FONT size="5pt"> repond à ce questionnaire pour le savoir:<a href="https://www.jetpunk.com/user-quizzes/2552627/quiz-es-tu-vraiment-emma"> quiz es tu vraiment emma ?</a></p>
+ 
+
+
+ 
+  Mot de passe : <input type="text" id="psw" maxlength="100">
+  <input type="submit" value=" Valider " id="btn">
+ 
+  <script>
+  var mot_de_passe = 'fsrlmjaaam2t54d';
+   
+  window.onload = function()
+  {
+    window.document.getElementById('btn').onclick = function(e)
+    {
+      if(window.document.getElementById('psw').value === mot_de_passe)
+      {
+        window.alert('Bravo tu as réussi à trouver le mot de passe mystère !');
+        window.location.href ='secret.html';
+      }
+      else
+      {
+        window.alert('Mauvais mot de passe la honte !');
+        window.document.getElementById('psw').value = '';
+      }
+    }
+  }
+  </script>
+ 
